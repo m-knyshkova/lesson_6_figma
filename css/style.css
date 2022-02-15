@@ -1,0 +1,121 @@
+@import "null.css";
+
+/* Шрифты из 4 урока */
+
+@font-face {
+  font-family: "CircularStd";
+  src: url(../fonts/CircularStd-Book.woff2) format("woff2"),
+    url(../fonts/CircularStd-Book.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url(../fonts/CircularStd-Bold.woff2) format("woff2"),
+    url(../fonts/CircularStd-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url(../fonts/CircularStd-Medium.woff2) format("woff2"),
+    url(../fonts/CircularStd-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url(../fonts/CircularStd-Black.woff2) format("woff2"),
+    url(../fonts/CircularStd-Black.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  max-width: 1025px;
+  margin-left: 207px;
+  margin-top: 207px;
+  margin-left: 208px;
+  font-family: "CircularStd", sans-serif;
+
+  /*background-color: aquamarine;*/
+}
+
+.title1 {
+  font-style: normal;
+  font-size: 65px;
+  font-weight: normal;
+  text-transform: capitalize;
+  text-align: center;
+  color: #313131;
+  line-height: 82px;
+  margin-bottom: 20px;
+  color: #5f5f5f;
+}
+.text1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  margin-left: 145px;
+  margin-right: 130px;
+  margin-bottom: 224px;
+  color: #313131;
+}
+.title2 {
+  display: inline-block;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+.text2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 156%;
+  color: #5f5f5f;
+  margin-right: 514px;
+  margin-bottom: 125px;
+  color: #5f5f5f;
+}
+.text3 {
+  display: inline-block;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 5px;
+  margin-right: 786px;
+  color: #313131;
+}
+
+.text4 {
+  display: inline-block;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 128%;
+  color: #b8b8b8;
+  margin-bottom: 50px;
+  margin-right: 873px;
+}
+.img {
+  width: 401px;
+  height: 674px;
+  margin-bottom: 141px;
+}
